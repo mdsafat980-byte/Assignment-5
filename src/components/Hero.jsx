@@ -1,3 +1,5 @@
+import bannerStack from '../../assets/banner-stack.png';
+
 function Hero() {
   return (
     <section className="hero-section" id="home">
@@ -24,7 +26,7 @@ function Hero() {
 
         <div className="hero-visual">
           <div className="hero-card">
-            <img src="/Assignment-5/assets/banner-stack.png" alt="Developer workspace" />
+            <img src={bannerStack} alt="Developer workspace" />
           </div>
         </div>
       </div>
